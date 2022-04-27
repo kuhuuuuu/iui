@@ -1,0 +1,96 @@
+.menu{
+    background-color: black;
+    height: 10vh;
+    text-align: center;
+    
+   
+    
+}
+.gamescontainer{
+    background: linear-gradient(-45deg, #ff0000, #000000);
+    background-size: 400% 400%;
+    animation-name: bg;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.menuitem{
+    margin: 0 30px  ;
+    display: inline-block;
+    color: azure;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10vh;
+    transition: 1s;
+}
+.menuitem:hover{
+    transform: scale(1.4);
+    color: rgb(255, 0, 0);
+}
+.item1{
+    background-image: url(img/shin_megami_tensei_persona_3_art_99071dfd.jpeg);
+}
+.item2{
+    background-image: url(img/wp8720796.jpg);
+}
+.item3{
+    background-image: url(img/c2d7c282b56d6d9dcb80777e33f58fbc.jpg);
+}
+.item4{
+    background-image: url(img/persona5theroyal_1.jpg);
+}
+.gamesite{
+    width: 400px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+    filter: brightness(0.4);
+    transition: 1s;
+
+
+}
+.gamesite:hover{
+    filter: none;
+    transform: scale(1.02);
+}
+ul{
+    text-align: center;
+
+    
+}
+.u{
+    text-decoration: none;
+    width: 90%;
+    padding: 10px 0;
+    background-color: transparent;
+    border: 2px solid black;
+    display: inline-block;
+    font-size: 30px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 500px;
+    color: white;
+    text-shadow: 3px 3px 0 #000000;
+
+}
+@keyframes bg{
+   
+    
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+/* добавить тень на меню в ховере */
